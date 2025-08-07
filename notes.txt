@@ -1,0 +1,8 @@
+Features:
+1. Features/License_Manager local
+2. License Manage Gumroad
+3. Notification with Signal
+4. Different Type of Signal Handle by Model, Local License Manager and others
+5. Hot data load by signal -> eg. homePage.py
+6. Uses Custom Font -> eg. homePage.py
+7. Threading -> LicensePage.py
