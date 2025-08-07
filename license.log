@@ -1,0 +1,6 @@
+2025-08-08 02:41:57,129 - ERROR - Exception during license removal
+Traceback (most recent call last):
+  File "H:\sofmake\sofmark_gumroad_license\pages\licensePage.py", line 234, in remove_license
+    self.show_message("Gumroad API request failed.", error=True)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'licensePage' object has no attribute 'show_message'

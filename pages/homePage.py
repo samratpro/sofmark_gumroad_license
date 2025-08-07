@@ -11,6 +11,7 @@ from features.license_manage import view_license
 from features.data_save_signals import signals
 
 LINKEDIN_URL = "https://www.linkedin.com/in/samratpy/"
+software_store = "https://sofmarks.gumroad.com/"
 domain = "http://127.0.0.1:8000"
 
 
@@ -65,7 +66,7 @@ class homepage(QWidget):
         self.refresh_license_info()
 
         # Connect developer links
-        self.ui.explore_more.clicked.connect(lambda: self.open_url(LINKEDIN_URL))
+        self.ui.explore_more.clicked.connect(lambda: self.open_url(software_store))
         self.ui.contact_developer.clicked.connect(lambda: self.open_url(LINKEDIN_URL))
 
         # Connect signals
